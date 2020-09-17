@@ -8,3 +8,4 @@ wwan-objs += wwan_core.o
 
 obj-$(CONFIG_MHI_WWAN_CTRL) += mhi_wwan_ctrl.o
 obj-$(CONFIG_RPMSG_WWAN_CTRL) += rpmsg_wwan_ctrl.o
+obj-$(CONFIG_QCOM_BAM_DMUX) += bam_dmux.o
