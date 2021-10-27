@@ -335,6 +335,7 @@
 	pinctrl-1 = <&cdc_pdm_lines_sus &ext_sec_tlmm_lines_sus>;
 
 	model = "alcatel-idol3";
+	widgets = "Speaker", "Speaker Top", "Speaker", "Speaker Bottom";
 	pin-switches = "Speaker Top", "Speaker Bottom";
 	audio-routing =
 		"Speaker Top", "Speaker Top OUT",
